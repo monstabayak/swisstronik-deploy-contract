@@ -10,7 +10,7 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY;
 // CONTRACT ADDRESSES - FROM NEW SUCCESSFUL TX: 0x250f84a7ca8c3d6bd5418c0ba585ac53cbbb245f69e03bb42d88afe1d802e83f
 const UNISWAP_V2_ROUTER = '0xeE567Fe1712Faf6149d80dA1E6934E354124CfE3'; // Uniswap V2 Router
 const R2_TOKEN_ADDRESS = '0xb816bb88f836ea75ca4071b46ff285f690c43bb7'; // R2 token (tokenA)
-const USDC_ADDRESS = '0x8BEbFCBe5468F146533C182dF3DFbF5ff9BE00E2'; // USDC token (tokenB)
+const USDC_ADDRESS = '0x9e8FF356D35a2Da385C546d6Bf1D77ff85133365'; // USDC token (tokenB)
 
 const provider = new ethers.providers.JsonRpcProvider(RPC_URL, CHAIN_ID);
 const wallet = new ethers.Wallet(PRIVATE_KEY, provider);
